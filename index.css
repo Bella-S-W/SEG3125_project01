@@ -56,6 +56,33 @@ clear: both;
     padding: 16px 32px;
   }
 
+  .services_buttons {
+    position: relative;
+    background-color:#4a4a50;
+    color: rgb(247, 246, 241);
+    border-radius:5px; 
+    padding:20px;
+    left: 20px;
+    min-height:30px; 
+    min-width: 120px;
+    text-align: center;
+    font-size: 24px;
+    padding: 16px 32px;
+  }
+
+  .experts_buttons {
+    position: relative;
+    background-color:#4a4a50;
+    color: rgb(247, 246, 241);
+    border-radius:5px; 
+    padding:20px;
+    left: 20px;
+    min-height:30px; 
+    min-width: 120px;
+    text-align: center;
+    font-size: 24px;
+    padding: 16px 32px;
+  }
 
 .info{
     position: relative;
