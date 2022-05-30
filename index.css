@@ -10,11 +10,29 @@
 
   }
 
+    .subpage_background {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .subpage_background::before {
+      content: "";
+      background-image:url('./Photo/Homepage background.jpg');
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      filter: blur(6px);
+    }
+
 .strokeme {
 position: relative;
 text-align: center;
 color: white;
-font-size: 64px;
+font-size: 50px;
 outline: 15px red;
 text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 max-width: 940px;
@@ -22,6 +40,7 @@ margin: 0 auto;
 padding: 0 5%;
 clear: both;
 }
+
 
   .homepage_buttons {
     position: relative;
@@ -46,5 +65,22 @@ clear: both;
     text-align: center;
     width: 100%;
   }
+
+  .service_page {
+    position: absolute;
+    text-align: center;
+    top:80px;
+    left:16px;
+    color: whitesmoke;
+    font-size: 45px;
+    outline: 15px red;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+    clear: both;
+    }
+
+
   
  
