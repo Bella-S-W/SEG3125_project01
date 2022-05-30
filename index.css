@@ -25,7 +25,7 @@
       height: 100%;
       background-size: cover;
       background-position: center;
-      filter: blur(6px);
+      filter: blur(8px);
     }
 
 .strokeme {
@@ -56,6 +56,25 @@ clear: both;
     padding: 16px 32px;
   }
 
+  .home_icon{
+    position: relative;
+    border: #000;
+    background-color:#0a0a23;
+    color: rgb(248, 245, 245);
+    border-radius: 5px;
+    padding: 20px;
+    left: 20px;
+    min-height: 30px;
+    min-width: 120px;
+    text-align: center;
+    font-size: 34px;
+  
+  }
+  .home_icon:hover{
+    background-color: #fff;
+    color: #000;
+  }
+
   .services_buttons {
     position: relative;
     background-color:#4a4a50;
@@ -83,7 +102,33 @@ clear: both;
     font-size: 24px;
     padding: 16px 32px;
   }
-
+  .appointments_buttons {
+    position: relative;
+    background-color:#4a4a50;
+    color: rgb(247, 246, 241);
+    border-radius:5px; 
+    padding:20px;
+    left: 20px;
+    min-height:30px; 
+    min-width: 120px;
+    text-align: center;
+    font-size: 24px;
+    padding: 16px 32px;
+  }
+  .support_buttons {
+    position: relative;
+    background-color:#4a4a50;
+    color: rgb(247, 246, 241);
+    border-radius:5px; 
+    padding:20px;
+    left: 20px;
+    min-height:30px; 
+    min-width: 120px;
+    text-align: center;
+    font-size: 24px;
+    padding: 16px 32px;
+  }
+ 
 .info{
     position: relative;
     bottom:-450px;
