@@ -33,6 +33,7 @@ position: relative;
 text-align: center;
 color: white;
 font-size: 50px;
+margin-top: 60px;
 outline: 15px red;
 text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 max-width: 940px;
@@ -52,10 +53,20 @@ clear: both;
   left: 20px;
   min-height:30px; 
   min-width: 120px;
+  margin-top: 100px;
   text-align: center;
   font-size: 24px;
   padding: 16px 32px;
+}
+.space {
+  width:150px;
+  display: inline-block;
+}
 
+.divider {
+  position: relative;
+  width:20px;
+  display: inline-block;
 }
 
 
@@ -143,7 +154,9 @@ clear: both;
     word-wrap: break-word;
     background-clip: border-box;
     border: 3px solid rgba(0, 0, 0, .125);
-    border-radius: .25rem
+    border-radius: .25rem;
+    background-color: #fff;
+    opacity: 0.5;
 }
 
 .service_card-body {
