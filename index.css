@@ -25,7 +25,7 @@
       height: 100%;
       background-size: cover;
       background-position: center;
-      filter: blur(8px);
+      filter: blur(12px);
     }
 
 .strokeme {
@@ -42,19 +42,22 @@ clear: both;
 }
 
 
-  .homepage_buttons {
-    position: relative;
-    background-color:#0a0a23;
-    color: #fff;
-    border-radius:5px; 
-    padding:20px;
-    left: 20px;
-    min-height:30px; 
-    min-width: 120px;
-    text-align: center;
-    font-size: 24px;
-    padding: 16px 32px;
-  }
+.homepage_buttons {
+  position: relative;
+  display: inline-block;
+  background-color:#0a0a23;
+  color: #fff;
+  border-radius:5px; 
+  padding:20px;
+  left: 20px;
+  min-height:30px; 
+  min-width: 120px;
+  text-align: center;
+  font-size: 24px;
+  padding: 16px 32px;
+
+}
+
 
   .home_icon{
     position: relative;
@@ -128,6 +131,67 @@ clear: both;
     font-size: 24px;
     padding: 16px 32px;
   }
+
+  .service_card {
+    position: relative;
+    /* display: -ms-flexbox; */
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 3px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem
+}
+
+.service_card-body {
+  text-align: center;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem
+}
+@media (min-width:576px) {
+  .service_card-columns {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+      -webkit-column-gap: 1.25rem;
+      -moz-column-gap: 1.25rem;
+      column-gap: 1.25rem;
+      orphans: 1;
+      widows: 1
+  }
+
+  .service_card-columns .card {
+      display: inline-block;
+      width: 100%
+  }
+}
+
+.service_card-text:first-child{
+  color: rgb(240, 245, 242);
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0
+}
+.service_card-text:last-child{
+  color: rgb(250, 244, 244);
+  font-size: 22px;
+  margin-bottom: 0
+}
+.service_card-text_2:first-child{
+  color: rgb(14, 14, 14);
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0
+}
+.service_card-text_2:last-child{
+  color: rgb(10, 9, 9);
+  font-size: 22px;
+  margin-bottom: 0
+}
  
 .info{
     position: relative;
