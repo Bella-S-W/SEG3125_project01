@@ -71,6 +71,7 @@ clear: both;
     min-width: 120px;
     text-align: center;
     font-size: 34px;
+    display: inline-block;
   
   }
   .home_icon:hover{
